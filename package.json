@@ -6,6 +6,6 @@
         "expect.js" : "latest"
     },
     "scripts": {
-        "test": "mocha",
+        "test": "mocha"
     }
 }

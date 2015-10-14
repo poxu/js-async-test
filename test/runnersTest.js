@@ -32,6 +32,19 @@ describe('Runners', function() {
 
         });
 
+        it('should count sum correctly', function(done) {
+            func({
+                worker: function(num) {
+                   return 1; 
+                },
+                onEnd: function(sum) {
+                    expect(sum).to.be.equal(10);
+                    done();
+                }
+            }, 10);
+
+        });
+
         it('should run worket 10 times and run callback after all workers are done', function(done) {
             var times = 10;
             func({
