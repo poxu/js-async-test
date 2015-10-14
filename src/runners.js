@@ -14,7 +14,7 @@ var runAsync = (function() {
             };
             
             for(var i = 0;i<times; ++i) {
-                setTimeout(worker);
+                setTimeout(worker, 0);
             }
         }
 
