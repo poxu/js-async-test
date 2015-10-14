@@ -1,2 +1,3 @@
-# js-async-test
-Tests to show that async is not parallel
+#Test for javascript asynchronous operations 
+
+Those tests show that async is not parallel
