@@ -1,0 +1,12 @@
+{
+    "name": "js-vs-coffee",
+    "devDependencies": {
+        "jshint": "latest",
+        "mocha": "latest",
+        "expect.js" : "latest"
+    },
+    "scripts": {
+        "test": "mocha",
+        "start": "node src/performanceTest.js"
+    }
+}
