@@ -4,13 +4,6 @@ var exports = require('../src/runners.js');
 
 var runAsync = exports.runAsync;
 
-var functionName = function (fun) {
-  var ret = fun.toString();
-  ret = ret.substr('function '.length);
-  ret = ret.substr(0, ret.indexOf('('));
-  return ret;
-};
-
 var getTime = function() {
     return new Date().getTime();
 };
